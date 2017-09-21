@@ -13,7 +13,7 @@ const loggerMiddleware = createLogger({ collapsed: true });
 // 创建一个中间件集合
 const middleware = [thunk, loggerMiddleware];
 const store = createStore(rootReducer,
-    composeWithDevTools(
-        applyMiddleware(...middleware)
-    ));
+  composeWithDevTools(
+    applyMiddleware(...middleware)
+  ));
 export default store;

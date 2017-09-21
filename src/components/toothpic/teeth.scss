@@ -1,0 +1,39 @@
+.list_teeth {
+  font-size: 16px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin: 4px;
+  cursor: pointer;
+}
+
+.blue {
+  background-color: #cfefdf;
+}
+
+
+.transparent {
+  color: #fff;
+}
+
+.textAlignRight {
+  text-align: right;
+}
+
+.list_teeth2 {
+  font-size: 16px;
+  display: inline-block; //border: 1px solid #ccc;
+  border-radius: 3px;
+  margin: 4px;
+  cursor: pointer;
+}
+
+.verticalBar {
+  margin: 0;
+  display: inline-block;
+  height: 70px;
+  width: 1px;
+  border: 1px solid;
+  border-radius: 0;
+  margin-bottom: -45px;
+}
